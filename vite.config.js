@@ -1,10 +1,9 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from "vite";
 
 export default defineConfig({
-  // Use relative paths so the build works from a subdirectory
-  base: './',
-  build: {
-    // Emit straight into your site’s static folder
-    outDir: '/Portfolio-Game/',
-  },
+  base: "/Portfolio-Game/",     // critical for GitHub Pages repo path
+  build: { 
+    outDir: "dist", 
+    emptyOutDir: true 
+  }
 });
