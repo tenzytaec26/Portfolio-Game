@@ -6,6 +6,5 @@ export default defineConfig({
   build: {
     // Emit straight into your site’s static folder
     outDir: '/Portfolio-Game/',
-    emptyOutDir: true,
   },
 });
