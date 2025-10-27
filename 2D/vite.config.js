@@ -5,7 +5,7 @@ export default defineConfig({
   base: './',
   build: {
     // Emit straight into your site’s static folder
-    outDir: '../../static/game/2d',
+    outDir: '/Portfolio-Game/',
     emptyOutDir: true,
   },
 });
