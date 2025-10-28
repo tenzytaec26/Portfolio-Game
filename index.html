@@ -25,23 +25,23 @@
         position: relative;
       }
 
-      #textbox{
-        position: absolute;
-        left: 10%;
-        right: 10%;
+      #textbox {
+        position: fixed;
+        left: 50%;
         bottom: 2vh;
-        min-height: 10vh;
+        transform: translateX(-50%);
+        width: clamp(50vw, 70vw, 1100px);
+        min-height: 35vh; /* ⬅️ increase this value */
+        max-height: 70vh;
         background: white;
-        border-radius: 3px;
+        border-radius: 12px;
         outline-style: solid;
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: flex-start;
+        padding: 1.5rem;
+        display: block;
         word-spacing: 0.2rem;
+        overflow-y: auto;
         filter: drop-shadow(0 0 0.75rem rgb(112, 112, 112));
+        z-index: 1000;
       }
 
       .ui-text{
@@ -70,6 +70,39 @@
         flex-direction: column;
         color: rgb(238, 238, 238);
         user-select: none;
+      }
+
+      /* Center text/images area */
+      #dialogue {
+        margin: 0;
+      }
+
+      /* Center any images placed in the dialogue (including slider images) */
+      #dialogue img {
+        display: block;
+        margin: 8px auto;                /* <-- centers images horizontally */
+        max-width: min(560px, 100%);     /* responsive cap */
+        height: auto;
+        border-radius: 10px;
+      }
+
+      /* If you used the .slider markup */
+      #dialogue .slider {
+        margin: 8px auto 0;              /* center the whole slider block */
+      }
+      #dialogue .slides {
+        transition: transform 0.4s ease; /* for manual next/prev */
+      }
+
+      /* Fix class mismatch: your CSS used .ui-close-btn but HTML has .ui-close-button */
+      .ui-close-button, .ui-close-btn {
+        font-family: inherit;
+        border: none;
+        border-radius: 6px;
+        padding: 0.6rem 0.9rem;
+        font-size: 1rem;
+        cursor: pointer;
+        background: #eee;
       }
 
     </style>

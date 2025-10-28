@@ -1,6 +1,8 @@
 import { dialogueData, scaleFactor } from "./constants";
 import { k } from "./kaboomCtx";
 import { displayDialogue, setCamScale } from "./utils";
+import "./slider.css";
+import "./slider.js";
 
 k.loadSprite("spritesheet", "./spritesheet.png",{
   sliceX: 39,
@@ -16,12 +18,12 @@ k.loadSprite("spritesheet", "./spritesheet.png",{
 
 });
 
-k.loadSprite("map", "./map.png");
+k.loadSprite("map", "./mymap.png");
 
 k.setBackground(k.Color.fromHex('#311047'));
 
 k.scene("main", async () => {
-  const mapData = await ( await fetch("./map.json")).json()
+  const mapData = await ( await fetch("./mymap.json")).json()
   const layers = mapData.layers;
 
   const map = k.add([
