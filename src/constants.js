@@ -1,4 +1,5 @@
 export const scaleFactor = 4;
+const BASE = import.meta.env.BASE_URL;
 
 export const dialogueData = {
   Gasa: `
@@ -7,11 +8,11 @@ export const dialogueData = {
     <div class="slider" data-index="0">
       <button class="prev">❮</button>
       <div class="slides">
-        <img src="./public/images/gasa1.jpg" alt="Gasa landscape" />
-        <img src="./public/images/gasa2.jpg" alt="Hot spring" />
-        <img src="./public/images/gasa3.jpg" alt="Camping site" />
-        <img src="./public/images/gasa4.jpg" alt="Camping site" />
-        <img src="./public/images/gasa5.jpg" alt="Camping site" />
+        <img src="${BASE}images/gasa1.jpg" alt="Gasa landscape" />
+        <img src="${BASE}images/gasa2.jpg" alt="Hot spring" />
+        <img src="${BASE}images/gasa3.jpg" alt="Camping site" />
+        <img src="${BASE}images/gasa4.jpg" alt="Camping site" />
+        <img src="${BASE}images/gasa5.jpg" alt="Camping site" />
       </div>
       <button class="next">❯</button>
     </div>
@@ -23,7 +24,7 @@ export const dialogueData = {
     <div class="slider" data-index="0">
       <button class="prev">❮</button>
       <div class="slides">
-        <img src="./public/images/druk1.jpg" alt="Drukpath camp-site" />
+        <img src="${BASE}images/druk1.jpg" alt="Drukpath camp-site" />
       </div>
       <button class="next">❯</button>
     </div>
@@ -35,10 +36,10 @@ export const dialogueData = {
     <div class="slider" data-index="0">
       <button class="prev">❮</button>
       <div class="slides">
-        <img src="./public/images/tphu1.png" alt="Gasa landscape" />
-        <img src="./public/images/tphu2.jpg" alt="Hot spring" />
-        <img src="./public/images/tphu3.jpg" alt="Camping site" />
-        <img src="./public/images/tphu4.jpg" alt="Camping site" />
+        <img src="${BASE}images/tphu1.png" alt="Gasa landscape" />
+        <img src="${BASE}images/tphu2.jpg" alt="Hot spring" />
+        <img src="${BASE}images/tphu3.jpg" alt="Camping site" />
+        <img src="${BASE}images/tphu4.jpg" alt="Camping site" />
       </div>
       <button class="next">❯</button>
     </div>
@@ -50,9 +51,9 @@ export const dialogueData = {
     <div class="slider" data-index="0">
       <button class="prev">❮</button>
       <div class="slides">
-        <img src="./public/images/paro1.jpg" alt="Gasa landscape" />
-        <img src="./public/images/paro2.jpg" alt="Hot spring" />
-        <img src="./public/images/paro3.jpg" alt="Camping site" />
+        <img src="${BASE}images/paro1.jpg" alt="Gasa landscape" />
+        <img src="${BASE}images/paro2.jpg" alt="Hot spring" />
+        <img src="${BASE}images/paro3.jpg" alt="Camping site" />
       </div>
       <button class="next">❯</button>
     </div>
@@ -64,9 +65,9 @@ export const dialogueData = {
     <div class="slider" data-index="0">
       <button class="prev">❮</button>
       <div class="slides">
-        <img src="./public/images/trong1.jpg" alt="Gasa landscape" />
-        <img src="./public/images/trong2.jpg" alt="Hot spring" />
-        <img src="./public/images/trong3.jpg" alt="Camping site" />
+        <img src="${BASE}images/trong1.jpg" alt="Gasa landscape" />
+        <img src="${BASE}images/trong2.jpg" alt="Hot spring" />
+        <img src="${BASE}images/trong3.jpg" alt="Camping site" />
       </div>
       <button class="next">❯</button>
     </div>
@@ -79,12 +80,12 @@ export const dialogueData = {
     <div class="slider" data-index="0">
       <button class="prev">❮</button>
       <div class="slides">
-        <img src="./public/images/hk1.jpg" alt="Gasa landscape" />
-        <img src="./public/images/hk2.jpg" alt="Hot spring" />
-        <img src="./public/images/hk4.jpg" alt="Hot spring" />
-        <img src="./public/images/hk5.jpg" alt="Camping site" />
-        <img src="./public/images/hk6.jpg" alt="Camping site" />
-        <img src="./public/images/hk7.jpg" alt="Camping site" />
+        <img src="${BASE}images/hk1.jpg" alt="Gasa landscape" />
+        <img src="${BASE}images/hk2.jpg" alt="Hot spring" />
+        <img src="${BASE}images/hk4.jpg" alt="Hot spring" />
+        <img src="${BASE}images/hk5.jpg" alt="Camping site" />
+        <img src="${BASE}images/hk6.jpg" alt="Camping site" />
+        <img src="${BASE}images/hk7.jpg" alt="Camping site" />
       </div>
       <button class="next">❯</button>
     </div>
@@ -96,8 +97,8 @@ export const dialogueData = {
     <div class="slider" data-index="0">
       <button class="prev">❮</button>
       <div class="slides">
-        <img src="./public/images/india1.jpg" alt="Gasa landscape" />
-        <img src="./public/images/india2.jpg" alt="Hot spring" />
+        <img src="${BASE}images/india1.jpg" alt="Gasa landscape" />
+        <img src="${BASE}images/india2.jpg" alt="Hot spring" />
       </div>
       <button class="next">❯</button>
     </div>
@@ -108,8 +109,8 @@ export const dialogueData = {
     <div class="slider" data-index="0">
       <button class="prev">❮</button>
       <div class="slides">
-        <img src="./public/images/bum1.jpg" alt="Gasa landscape" />
-        <img src="./public/images/bum2.jpg" alt="Hot spring" />
+        <img src="${BASE}images/bum1.jpg" alt="Gasa landscape" />
+        <img src="${BASE}images/bum2.jpg" alt="Hot spring" />
       </div>
       <button class="next">❯</button>
     </div>
@@ -121,11 +122,11 @@ export const dialogueData = {
     <div class="slider" data-index="0">
       <button class="prev">❮</button>
       <div class="slides">
-        <img src="./public/images/daga1.jpg" alt="Gasa landscape" />
-        <img src="./public/images/daga2.jpg" alt="Hot spring" />
-        <img src="./public/images/daga3.jpg" alt="Camping site" />
-        <img src="./public/images/daga4.jpg" alt="Camping site" />
-        <img src="./public/images/daga5.jpg" alt="Camping site" />
+        <img src="${BASE}images/daga1.jpg" alt="Gasa landscape" />
+        <img src="${BASE}images/daga2.jpg" alt="Hot spring" />
+        <img src="${BASE}images/daga3.jpg" alt="Camping site" />
+        <img src="${BASE}images/daga4.jpg" alt="Camping site" />
+        <img src="${BASE}images/daga5.jpg" alt="Camping site" />
       </div>
       <button class="next">❯</button>
     </div>
@@ -143,10 +144,10 @@ export const dialogueData = {
     <div class="slider" data-index="0">
       <button class="prev">❮</button>
       <div class="slides">
-        <img src="./public/images/jumo1.jpg" alt="Gasa landscape" />
-        <img src="./public/images/jumo2.jpg" alt="Hot spring" />
-        <img src="./public/images/jumo3.jpg" alt="Camping site" />
-        <img src="./public/images/jumo4.jpg" alt="Camping site" />
+        <img src="${BASE}public/images/jumo1.jpg" alt="Gasa landscape" />
+        <img src="${BASE}public/images/jumo2.jpg" alt="Hot spring" />
+        <img src="${BASE}public/images/jumo3.jpg" alt="Camping site" />
+        <img src="${BASE}public/images/jumo4.jpg" alt="Camping site" />
       </div>
       <button class="next">❯</button>
     </div>
