@@ -80,11 +80,11 @@ export const dialogueData = {
     <div class="slider" data-index="0">
       <button class="prev">❮</button>
       <div class="slides">
-        <img src="${BASE}images/hk1.jpg" alt="Gasa landscape" />
-        <img src="${BASE}images/hk2.jpg" alt="Hot spring" />
-        <img src="${BASE}images/hk4.jpg" alt="Hot spring" />
+        <img src="${BASE}images/hk1.JPG" alt="Gasa landscape" />
+        <img src="${BASE}images/hk2.JPG" alt="Hot spring" />
+        <img src="${BASE}images/hk4.JPG" alt="Hot spring" />
         <img src="${BASE}images/hk5.jpg" alt="Camping site" />
-        <img src="${BASE}images/hk6.jpg" alt="Camping site" />
+        <img src="${BASE}images/hk6.JPG" alt="Camping site" />
         <img src="${BASE}images/hk7.jpg" alt="Camping site" />
       </div>
       <button class="next">❯</button>
@@ -97,8 +97,8 @@ export const dialogueData = {
     <div class="slider" data-index="0">
       <button class="prev">❮</button>
       <div class="slides">
-        <img src="${BASE}images/india1.jpg" alt="Gasa landscape" />
-        <img src="${BASE}images/india2.jpg" alt="Hot spring" />
+        <img src="${BASE}images/india1.JPG" alt="Gasa landscape" />
+        <img src="${BASE}images/india2.JPG" alt="Hot spring" />
       </div>
       <button class="next">❯</button>
     </div>
@@ -110,7 +110,7 @@ export const dialogueData = {
       <button class="prev">❮</button>
       <div class="slides">
         <img src="${BASE}images/bum1.jpg" alt="Gasa landscape" />
-        <img src="${BASE}images/bum2.jpg" alt="Hot spring" />
+        <img src="${BASE}images/bum2.JPG" alt="Hot spring" />
       </div>
       <button class="next">❯</button>
     </div>
