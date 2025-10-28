@@ -35,7 +35,7 @@ export const dialogueData = {
     <div class="slider" data-index="0">
       <button class="prev">❮</button>
       <div class="slides">
-        <img src="./public/images/tphu1.jpg" alt="Gasa landscape" />
+        <img src="./public/images/tphu1.png" alt="Gasa landscape" />
         <img src="./public/images/tphu2.jpg" alt="Hot spring" />
         <img src="./public/images/tphu3.jpg" alt="Camping site" />
         <img src="./public/images/tphu4.jpg" alt="Camping site" />
