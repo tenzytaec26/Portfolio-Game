@@ -144,10 +144,10 @@ export const dialogueData = {
     <div class="slider" data-index="0">
       <button class="prev">❮</button>
       <div class="slides">
-        <img src="${BASE}public/images/jumo1.jpg" alt="Gasa landscape" />
-        <img src="${BASE}public/images/jumo2.jpg" alt="Hot spring" />
-        <img src="${BASE}public/images/jumo3.jpg" alt="Camping site" />
-        <img src="${BASE}public/images/jumo4.jpg" alt="Camping site" />
+        <img src="${BASE}images/jumo1.jpg" alt="Gasa landscape" />
+        <img src="${BASE}images/jumo2.jpg" alt="Hot spring" />
+        <img src="${BASE}images/jumo3.jpg" alt="Camping site" />
+        <img src="${BASE}images/jumo4.jpg" alt="Camping site" />
       </div>
       <button class="next">❯</button>
     </div>
